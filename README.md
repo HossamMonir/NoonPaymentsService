@@ -26,6 +26,3 @@ Replace OrderNameOrDescription with Descriptions  ( Example: Product Nike 12022 
 $pay = new \App\Providers\NoonPaymentsService('{{ #OrderReference }}','{{ $OrderAmount }}','{{ $OrderNameOrDescription}}');
 $result = $pay->INITIATE();
 ```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
