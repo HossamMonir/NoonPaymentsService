@@ -52,7 +52,7 @@ class NoonPaymentsService extends ServiceProvider
 
         $payment_request = $payment_client->request('POST', $payment_api, $payment_parameter);
 
-        return json_decode($payment_request->getBody()->getContents(), true);;
+        return json_decode($payment_request->getBody()->getContents(), true);
 
     }
 
